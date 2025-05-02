@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(w14.jpg) no-repeat center;
+    padding: 50px 5%;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+    border: rgba(255, 255, 255, .2);
+    border-radius: 50px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 5%;
+    background: slateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+.navbar a{
+    font-size: 18px;
+    columns: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    border-bottom: 2px solid transparent;
+    transition: 5s;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    border-color: #fff;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    padding: 50px 5% 0;
+    color: #fff;
+}
+
+.home-detail h1{
+    font-size: 55px;
+    line-height: 1;
+    padding-bottom: 15px;
+}
+
+.home-detail h2{
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.home-detail p{
+    font-size: 10px 0 20px;
+}
+
+.home-detail .downloud-social {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+
+}
+
+.home-detail .social-icons{
+    margin-left: 20px;
+}
+
+.home-detail .social-icons a{
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.home-detail .social-icons a:hover{
+    background: #fff;
+    box-shadow: 0 0 10px #fff;
+    color: #333;
+}
+
+.home-img .img-box{
+    padding-left: 20px;
+    position: relative;
+    width: 30vw;
+    height: 30vw;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 80px #fff;
+    overflow: hidden;
+}
+
+.home-img .img-box img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.footer{
+    background-color: #fff;
+}
